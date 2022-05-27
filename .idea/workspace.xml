@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d759b0ec-5f66-40e9-b2a4-592dc6becbba" name="Changes" comment="" />
+    <list default="true" id="d759b0ec-5f66-40e9-b2a4-592dc6becbba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/fullcycle/admin/catalogo/domain/category/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/fullcycle/admin/catalogo/domain/category/CategoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +80,7 @@
       <recent name="com.fullcycle.admin.catalogo.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CategoryTest (1)">
+  <component name="RunManager" selected="Gradle.UseCaseTest">
     <configuration name="CategoryTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -147,7 +150,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UseCaseTest.testCreateUseCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UseCaseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -160,7 +163,7 @@
           <list>
             <option value=":application:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.application.UseCaseTest.testCreateUseCase&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.application.UseCaseTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UseCaseTest" />
         <item itemvalue="Gradle.CategoryTest (1)" />
         <item itemvalue="JUnit.All in fc3-admin-do-catalogo" />
         <item itemvalue="Gradle.MainTest.testMain" />
         <item itemvalue="Gradle.CategoryTest.givenAValidParams_whenCallNewCategory_thenInstantiateACategory (1)" />
-        <item itemvalue="Gradle.UseCaseTest.testCreateUseCase" />
       </list>
     </recent_temporary>
   </component>

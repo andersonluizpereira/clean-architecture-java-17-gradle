@@ -5,9 +5,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class UseCaseTest {
+public class UseCaseTest {
+
     @Test
-    void testCreateUseCase() {
+    public void testCreateUseCase() {
         Assertions.assertNotNull(new UseCase());
         Assertions.assertNotNull(new UseCase().execute());
     }
