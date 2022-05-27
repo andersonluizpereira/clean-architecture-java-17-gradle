@@ -5,6 +5,7 @@ import com.fullcycle.admin.catalogo.domain.validation.ValidationHandler;
 import java.util.Objects;
 
 public abstract class Entity<ID extends Identifier> {
+
     protected final ID id;
 
     protected Entity(final ID id) {
@@ -12,7 +13,7 @@ public abstract class Entity<ID extends Identifier> {
         this.id = id;
     }
 
-    public abstract void validate(ValidationHandler hanlder);
+    public abstract void validate(ValidationHandler handler);
 
     public ID getId() {
         return id;
@@ -23,11 +24,11 @@ public abstract class Entity<ID extends Identifier> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         final Entity<?> entity = (Entity<?>) o;
-        return id.equals(entity.id);
+        return getId().equals(entity.getId());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id);
+        return Objects.hash(getId());
     }
 }

@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d759b0ec-5f66-40e9-b2a4-592dc6becbba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/validation/Error.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/validation/ValidationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/exceptions/DomainException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/validation/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/validation/handler/ThrowsValidationHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/AggregateRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/AggregateRoot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/fullcycle/admin/catalogo/domain/category/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/fullcycle/admin/catalogo/domain/category/CategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/validation/ValidationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/validation/ValidationHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +37,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
