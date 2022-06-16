@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d759b0ec-5f66-40e9-b2a4-592dc6becbba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/CategoryValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/CategoryValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/exceptions/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/exceptions/DomainException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/validation/handler/ThrowsValidationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/validation/handler/ThrowsValidationHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/fullcycle/admin/catalogo/domain/category/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/fullcycle/admin/catalogo/domain/category/CategoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,20 +57,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/andersonluizpereira/java/fc3-admin-do-catalogo",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/andersonluizpereira/java/fc3-admin-do-catalogo&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -80,7 +84,7 @@
       <recent name="com.fullcycle.admin.catalogo.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UseCaseTest">
+  <component name="RunManager" selected="Gradle.CategoryTest.givenAValidCategory_whenCallUpdateToInactive_thenReturnCategoryUpdated">
     <configuration name="CategoryTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,7 +108,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CategoryTest.givenAValidParams_whenCallNewCategory_thenInstantiateACategory (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CategoryTest.givenAValidActiveCategory_whenCallDeactivate_thenReturnCategoryInactivated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -117,7 +121,7 @@
           <list>
             <option value=":domain:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.domain.category.CategoryTest.givenAValidParams_whenCallNewCategory_thenInstantiateACategory&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.domain.category.CategoryTest.givenAValidActiveCategory_whenCallDeactivate_thenReturnCategoryInactivated&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -127,7 +131,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainTest.testMain" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CategoryTest.givenAValidCategory_whenCallUpdateToInactive_thenReturnCategoryUpdated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -138,9 +142,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":insfrastructure:test" />
+            <option value=":domain:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.infrastructure.MainTest.testMain&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.domain.category.CategoryTest.givenAValidCategory_whenCallUpdateToInactive_thenReturnCategoryUpdated&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -150,7 +154,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UseCaseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CategoryTest.givenAValidCategory_whenCallUpdate_thenReturnCategoryUpdated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -161,9 +165,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":application:test" />
+            <option value=":domain:test" />
             <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.application.UseCaseTest&quot;" />
+            <option value="&quot;com.fullcycle.admin.catalogo.domain.category.CategoryTest.givenAValidCategory_whenCallUpdate_thenReturnCategoryUpdated&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,21 +177,36 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="All in fc3-admin-do-catalogo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fc3-admin-do-catalogo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="CategoryTest.givenAValidInactiveCategory_whenCallActivate_thenReturnCategoryActivated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":domain:test" />
+            <option value="--tests" />
+            <option value="&quot;com.fullcycle.admin.catalogo.domain.category.CategoryTest.givenAValidInactiveCategory_whenCallActivate_thenReturnCategoryActivated&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.UseCaseTest" />
+        <item itemvalue="Gradle.CategoryTest.givenAValidCategory_whenCallUpdateToInactive_thenReturnCategoryUpdated" />
+        <item itemvalue="Gradle.CategoryTest.givenAValidCategory_whenCallUpdate_thenReturnCategoryUpdated" />
         <item itemvalue="Gradle.CategoryTest (1)" />
-        <item itemvalue="JUnit.All in fc3-admin-do-catalogo" />
-        <item itemvalue="Gradle.MainTest.testMain" />
-        <item itemvalue="Gradle.CategoryTest.givenAValidParams_whenCallNewCategory_thenInstantiateACategory (1)" />
+        <item itemvalue="Gradle.CategoryTest.givenAValidInactiveCategory_whenCallActivate_thenReturnCategoryActivated" />
+        <item itemvalue="Gradle.CategoryTest.givenAValidActiveCategory_whenCallDeactivate_thenReturnCategoryInactivated" />
       </list>
     </recent_temporary>
   </component>
