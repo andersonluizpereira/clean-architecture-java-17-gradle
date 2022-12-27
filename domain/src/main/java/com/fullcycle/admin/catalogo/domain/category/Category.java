@@ -13,6 +13,7 @@ public class Category extends AggregateRoot<CategoryID> {
     private Instant updatedAt;
     private Instant deletedAt;
 
+
     private Category(
             final CategoryID anId,
             final String aName,
@@ -49,10 +50,12 @@ public class Category extends AggregateRoot<CategoryID> {
         this.updatedAt = Instant.now();
         return this;
     }
+
     public Category deactivate() {
-        if(getDeletedAt() == null) {
+        if (getDeletedAt() == null) {
             this.deletedAt = Instant.now();
         }
+
         this.active = false;
         this.updatedAt = Instant.now();
         return this;
@@ -61,9 +64,9 @@ public class Category extends AggregateRoot<CategoryID> {
     public Category update(
             final String aName,
             final String aDescription,
-            final Boolean isActive
-            ){
-        if (isActive()) {
+            final boolean isActive
+    ) {
+        if (isActive) {
             activate();
         } else {
             deactivate();
