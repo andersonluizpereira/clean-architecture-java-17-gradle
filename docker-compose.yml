@@ -1,0 +1,17 @@
+version: '3'
+services:
+  postgres-vaccine_stock:
+    image: postgres:latest
+    container_name: adm_videos_mysql
+    ports:
+      - "5432:5432"
+    expose:
+      - "5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB=adm_videos
+    networks:
+      - adm_videos_network
+networks:
+  adm_videos_network:
