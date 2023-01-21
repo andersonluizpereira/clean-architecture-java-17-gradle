@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d759b0ec-5f66-40e9-b2a4-592dc6becbba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/update/UpdateCategoryUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/update/UpdateCategoryUseCaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/Category.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,29 +119,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CreateCategoryUseCaseTest.givenAValidCommandWithInactiveCategory_whenCallsCreateCategory_shouldReturnInactiveCategoryId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":application:test" />
-            <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseTest.givenAValidCommandWithInactiveCategory_whenCallsCreateCategory_shouldReturnInactiveCategoryId&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="CreateCategoryUseCaseTest.givenAValidCommand_whenGatewayThrowsRandomException_shouldReturnAException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,6 +133,29 @@
             <option value=":application:test" />
             <option value="--tests" />
             <option value="&quot;com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseTest.givenAValidCommand_whenGatewayThrowsRandomException_shouldReturnAException&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeleteCategoryUseCaseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":application:test" />
+            <option value="--tests" />
+            <option value="&quot;com.fullcycle.admin.catalogo.application.category.delete.DeleteCategoryUseCaseTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -217,9 +215,9 @@
       <list>
         <item itemvalue="Gradle.UpdateCategoryUseCaseTest (1)" />
         <item itemvalue="Gradle.CreateCategoryUseCaseTest" />
+        <item itemvalue="Gradle.DeleteCategoryUseCaseTest" />
         <item itemvalue="Gradle.UpdateCategoryUseCaseTest.givenAValidCommand_whenCallsUpdateCategory_shouldReturnCategoryId" />
         <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAValidCommand_whenGatewayThrowsRandomException_shouldReturnAException" />
-        <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAValidCommandWithInactiveCategory_whenCallsCreateCategory_shouldReturnInactiveCategoryId" />
       </list>
     </recent_temporary>
   </component>
