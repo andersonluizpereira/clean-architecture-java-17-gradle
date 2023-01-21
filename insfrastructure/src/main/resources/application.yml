@@ -11,6 +11,6 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgres://${postgres.url}/${postgres.schema}?useSSL=true&serverTimezone=UTC&characterEncoding=UTF-8
-    username: ${postgres.username}
-    password: ${postgres.password}
+    url: jdbc:mysql://${mysql.url}/${mysql.schema}?useSSL=true&serverTimezone=UTC&characterEncoding=UTF-8
+    username: ${mysql.username}
+    password: ${mysql.password}
