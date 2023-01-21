@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d759b0ec-5f66-40e9-b2a4-592dc6becbba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/update/DefaultUpdateCategoryUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/update/UpdateCategoryCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/update/UpdateCategoryOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/update/UpdateCategoryUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/update/UpdateCategoryUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/validation/handler/Notification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/application/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/DefaultCreateCategoryUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/DefaultCreateCategoryUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/create/CreateCategoryUseCaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/validation/ValidationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/validation/ValidationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/update/UpdateCategoryUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/test/java/com/fullcycle/admin/catalogo/application/category/update/UpdateCategoryUseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/Category.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +97,7 @@
       <recent name="com.fullcycle.admin.catalogo.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CreateCategoryUseCaseTest">
+  <component name="RunManager" selected="Gradle.UpdateCategoryUseCaseTest (1)">
     <configuration name="CreateCategoryUseCaseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -123,29 +112,6 @@
             <option value=":application:test" />
             <option value="--tests" />
             <option value="&quot;com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CreateCategoryUseCaseTest.givenAInvalidName_whenCallsCreateCategory_thenShouldReturnDomainException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":application:test" />
-            <option value="--tests" />
-            <option value="&quot;com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseTest.givenAInvalidName_whenCallsCreateCategory_thenShouldReturnDomainException&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -201,6 +167,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="UpdateCategoryUseCaseTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":application:test" />
+            <option value="--tests" />
+            <option value="&quot;com.fullcycle.admin.catalogo.application.category.update.UpdateCategoryUseCaseTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="UpdateCategoryUseCaseTest.givenAValidCommand_whenCallsUpdateCategory_shouldReturnCategoryId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -224,21 +213,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="aws.lambda" factoryName="Remote">
-      <option name="credentialProviderId" />
-      <option name="regionId" />
-      <option name="functionName" />
-      <option name="input" />
-      <option name="inputIsFile" value="false" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UpdateCategoryUseCaseTest (1)" />
         <item itemvalue="Gradle.CreateCategoryUseCaseTest" />
         <item itemvalue="Gradle.UpdateCategoryUseCaseTest.givenAValidCommand_whenCallsUpdateCategory_shouldReturnCategoryId" />
         <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAValidCommand_whenGatewayThrowsRandomException_shouldReturnAException" />
         <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAValidCommandWithInactiveCategory_whenCallsCreateCategory_shouldReturnInactiveCategoryId" />
-        <item itemvalue="Gradle.CreateCategoryUseCaseTest.givenAInvalidName_whenCallsCreateCategory_thenShouldReturnDomainException" />
       </list>
     </recent_temporary>
   </component>
