@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d759b0ec-5f66-40e9-b2a4-592dc6becbba" name="Changes" comment="remove">
-      <change afterPath="$PROJECT_DIR$/insfrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/MySQLGatewayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insfrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGatewayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insfrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/persistence/CategoryRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insfrastructure/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/insfrastructure/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insfrastructure/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/insfrastructure/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/UnitUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/UnitUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/UseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/UseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/AggregateRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/AggregateRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/CategoryGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalogo/domain/category/CategoryGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insfrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/insfrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insfrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/insfrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insfrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/persistence/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/insfrastructure/src/main/java/com/fullcycle/admin/catalogo/infrastructure/category/persistence/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insfrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/insfrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insfrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGatewayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/insfrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGatewayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,27 +183,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fc3-admin-do-catalogo:insfrastructure [flywayClean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/insfrastructure" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="flywayClean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="fc3-admin-do-catalogo:insfrastructure [flywayInfo]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -253,13 +240,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CategoryMySQLGatewayTest.givenAValidCategory_whenCallsCreate_shouldReturnANewCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fc3-admin-do-catalogo.insfrastructure.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fullcycle.admin.catalogo.infrastructure.category.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fullcycle.admin.catalogo.infrastructure.category" />
+      <option name="MAIN_CLASS_NAME" value="com.fullcycle.admin.catalogo.infrastructure.category.CategoryMySQLGatewayTest" />
+      <option name="METHOD_NAME" value="givenAValidCategory_whenCallsCreate_shouldReturnANewCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CategoryMySQLGatewayTest" />
+        <item itemvalue="JUnit.CategoryMySQLGatewayTest.givenAValidCategory_whenCallsCreate_shouldReturnANewCategory" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.fc3-admin-do-catalogo:insfrastructure [flywayMigrate]" />
         <item itemvalue="Gradle.fc3-admin-do-catalogo:insfrastructure [flywayInfo]" />
-        <item itemvalue="Gradle.fc3-admin-do-catalogo:insfrastructure [flywayClean]" />
       </list>
     </recent_temporary>
   </component>
@@ -314,6 +317,11 @@
           <url>file://$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalogo/application/category/create/DefaultCreateCategoryUseCase.java</url>
           <line>26</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/insfrastructure/src/test/java/com/fullcycle/admin/catalogo/infrastructure/category/CategoryMySQLGatewayTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

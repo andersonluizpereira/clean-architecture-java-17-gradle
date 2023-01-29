@@ -4,8 +4,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.core.env.AbstractEnvironment;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class MainTest {
     @Test
     void testMain() {

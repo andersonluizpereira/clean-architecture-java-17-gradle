@@ -16,27 +16,32 @@
 ## Como executar?
 
 1. Clonar o repositório:
+
 ```sh
 git clone https://github.com/codeedu/micro-admin-videos-java.git
 ```
 
 2. Subir o banco de dados MySQL com Docker:
+
 ```shell
 docker-compose up -d
 ```
 
 3. Executar as migrações do MySQL com o Flyway:
+
 ```shell
 ./gradlew flywayMigrate
 ```
 
 4. Executar a aplicação como SpringBoot app:
+
 ```shell
 ./gradlew bootRun
 ``` 
 
 > Também é possível executar como uma aplicação Java através do
 > método main() na classe Main.java
+
 ## Banco de dados
 
 O banco de dados principal é um MySQL e para subir localmente vamos utilizar o
@@ -89,6 +94,7 @@ Quando isso acontecer o flyway ficará em um estado de reparação
 com um registro na tabela `flyway_schema_history` com erro (`sucesso = 0`).
 
 Para executar a reparação, corrija os arquivos e execute:
+
 ```shell
 ./gradlew flywayRepair
 ```
